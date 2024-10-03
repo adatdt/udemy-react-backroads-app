@@ -1,5 +1,5 @@
 const SocialLink = (props) => {
-  const { id, href, itemClass, icon } = props.data;
+  const { href, itemClass, icon } = props.data;
   return (
     <li>
       <a href={href} target="_blank" rel="noreferrer" className={itemClass}>
